@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #fffead;
+}
+
+/* Introduction div. h1 and p. */
+.introbox {
+  font-family: sans-serif;
+  display: column;
+  justify-content: center;
+  text-align: center;
+  color: #000000;
+  padding: 50px;
+}
+
+#btn {
+  padding: 20px;
+  background-color: #00aaff;
+  text-align: center;
+  color: white;
+  border: none;
+  font-size: 20px;
+}
+
+#btn:hover {
+  transition-duration: 0.4s;
+  background-color: #bde9ff;
+}
